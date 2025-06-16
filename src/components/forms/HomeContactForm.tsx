@@ -92,7 +92,7 @@ const HomeContactForm = () => {
                </div>
                <div className="col-md-6">
                   <div className="form__grp wow fadeInUp" data-wow-delay=".3s">
-                     <button type="button" className="theme-btn style1 pe-20">
+                     <button type="submit" className="theme-btn style1 pe-20">
                         <i
                            className="fa-solid fa-arrow-right w-36 h-36 bg-white rounded-circle d-center fz-14 theme-clr4"></i>
                         Submit your message
