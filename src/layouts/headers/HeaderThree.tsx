@@ -25,7 +25,7 @@ const HeaderThree = () => {
                         </div>
                      </div>
                      <div className="header-right d-flex justify-content-end align-items-center">
-                        <div className="mean__menu-wrapper">
+                        <div className="mean__menu-wrapper d-none d-xl-block">
                            <div className="main-menu">
                               <nav id="mobile-menu">
                                  <NavMenu />
