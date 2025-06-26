@@ -15,6 +15,7 @@ import TestimonialMain from '../pages/TestimonialMain';
 import FaqMain from '../pages/FaqMain';
 import PricingMain from '../pages/PricingMain';
 import ContactMain from '../pages/ContactMain';
+import NotFoundMain from '../pages/NotFoundMain';
 
 const AppNavigation = () => {
   return (
@@ -36,6 +37,7 @@ const AppNavigation = () => {
         <Route path="/faqs" element={<FaqMain />} />
         <Route path="/pricing-plan" element={<PricingMain />} />
         <Route path="/contact" element={<ContactMain />} />
+        <Route path="*" element={<NotFoundMain />} />
       </Routes>
     </Router>
   );
