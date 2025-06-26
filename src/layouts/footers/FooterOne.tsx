@@ -24,10 +24,18 @@ const FooterOne = () => {
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
                            <div className="socal-icon style1 justify-content-sm-end justify-content-center">
-                              <Link to="#"><i className="fa-brands fa-facebook-f"></i></Link>
-                              <Link to="#"><i className="fa-brands fa-twitter"></i></Link>
-                              <Link to="#"><i className="fa-brands fa-linkedin-in"></i></Link>
-                              <Link to="#"><i className="fa-brands fa-pinterest-p"></i></Link>
+                              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                                 <i className="fa-brands fa-facebook-f"></i>
+                              </a>
+                              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                                 <i className="fa-brands fa-twitter"></i>
+                              </a>
+                              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                                 <i className="fa-brands fa-linkedin-in"></i>
+                              </a>
+                              <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
+                                 <i className="fa-brands fa-pinterest-p"></i>
+                              </a>
                            </div>
                         </div>
                      </div>

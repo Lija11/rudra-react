@@ -36,7 +36,7 @@ const Banner = () => {
                <div className="hero-right-card position-absolute">
                   <img src="/assets/img/banner/right-card.png" alt="img" className="thumb-big" />
                   <img src="/assets/img/banner/groth.png" alt="img" className="groth-card" />
-                  <Link to="0" className="w-60 h-60 hover-svg bg-white rounded-circle d-center">
+                  <Link to="/" className="w-60 h-60 hover-svg bg-white rounded-circle d-center">
                      <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clipPath="url(#clip0_16_2193)">
                            <path

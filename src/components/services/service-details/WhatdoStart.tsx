@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 const WhatdoStart = () => {
    return (
@@ -17,10 +18,10 @@ const WhatdoStart = () => {
                      <p className="theme-clr4 mb-lg-4 mb-3">
                         Strategic coaching and tailored wealth planning to help you achieve financial security, independence, and peace of mind
                      </p>
-                     <a href="services.html" className="theme-btn style1 pe-20">
+                     <Link to="services" className="theme-btn style1 pe-20">
                         <i className="fa-solid fa-arrow-right w-36 h-36 bg-white rounded-circle d-center fz-14 theme-clr4"></i>
                         Book Your Free Consultation
-                     </a>
+                     </Link>
                   </div>
                </div>
             </div>

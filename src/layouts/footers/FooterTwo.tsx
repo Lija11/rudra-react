@@ -22,7 +22,7 @@ const FooterTwo = () => {
                         <h4 className="white-clr mb-sm-3 mb-2">Contact Us</h4>
                         <ul className="white-clr d-flex flex-column gap-2 mx-252 fz-15">
                            <li>
-                              <Link to="#" className="d-flex align-items-center text-white gap-2">
+                              <Link to="tel:+11002345909" className="d-flex align-items-center text-white gap-2">
                                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -33,7 +33,7 @@ const FooterTwo = () => {
                               </Link>
                            </li>
                            <li>
-                              <Link to="#" className="d-flex align-items-center text-white gap-2">
+                              <Link to="mailto:demo@example.com" className="d-flex align-items-center text-white gap-2">
                                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -48,10 +48,18 @@ const FooterTwo = () => {
                      <div className="">
                         <h4 className="white-clr mb-sm-3 mb-2">Social Links</h4>
                         <div className="socal-icon style1 justify-content-sm-end justify-content-center">
-                           <Link to="#"><i className="fa-brands fa-facebook-f"></i></Link>
-                           <Link to="#"><i className="fa-brands fa-twitter"></i></Link>
-                           <Link to="#"><i className="fa-brands fa-linkedin-in"></i></Link>
-                           <Link to="#"><i className="fa-brands fa-pinterest-p"></i></Link>
+                           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                              <i className="fa-brands fa-facebook-f"></i>
+                           </a>
+                           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                              <i className="fa-brands fa-twitter"></i>
+                           </a>
+                           <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                              <i className="fa-brands fa-linkedin-in"></i>
+                           </a>
+                           <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
+                              <i className="fa-brands fa-pinterest-p"></i>
+                           </a>
                         </div>
                      </div>
                   </div>

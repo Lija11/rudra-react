@@ -29,10 +29,18 @@ const FooterThree = () => {
                      </div>
                      <div className="col-lg-4 col-md-4 col-sm-6">
                         <div className="socal-icon social-style3 justify-content-sm-end justify-content-center">
-                           <Link to="#"><i className="fa-brands fa-facebook-f"></i></Link>
-                           <Link to="#"><i className="fa-brands fa-twitter"></i></Link>
-                           <Link to="#"><i className="fa-brands fa-linkedin-in"></i></Link>
-                           <Link to="#"><i className="fa-brands fa-pinterest-p"></i></Link>
+                           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                              <i className="fa-brands fa-facebook-f"></i>
+                           </a>
+                           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                              <i className="fa-brands fa-twitter"></i>
+                           </a>
+                           <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                              <i className="fa-brands fa-linkedin-in"></i>
+                           </a>
+                           <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
+                              <i className="fa-brands fa-pinterest-p"></i>
+                           </a>
                         </div>
                      </div>
                   </div>
@@ -59,10 +67,10 @@ const FooterThree = () => {
                            <h4 className="black-clr mb-sm-3 mb-2">Contact</h4>
                            <div className="d-flex flex-column gap-0">
                               <div className="d-flex align-items-center gap-2 black-clr fw-400">
-                                 Email: <Link to="#" className="fw-600">support@company.com</Link>
+                                 Email: <Link to="mailto:support@example.com" className="fw-600">support@company.com</Link>
                               </div>
                               <div className="d-flex align-items-center gap-2 black-clr fw-400">
-                                 Phone: <Link to="#" className="fw-600">(123) 456-7890</Link>
+                                 Phone: <Link to="tel:+11002345909" className="fw-600">(123) 456-7890</Link>
                               </div>
                            </div>
                         </div>

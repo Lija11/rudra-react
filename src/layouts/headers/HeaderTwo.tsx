@@ -33,10 +33,10 @@ const HeaderTwo = () => {
                            </div>
                         </div>
                         <div className="d-flex align-items-center gap-3">
-                           <Link to="#"
+                           <a onClick={() => setIsSearch(true)} style={{ cursor: "pointer" }}
                               className="search-trigger d-xl-none d-flex search-icon theme-clr4 hover-svg w-48 h-48 white-bg rounded-circle align-items-center justify-content-center d-xl-none d-block">
                               <i className="fa-solid fa-magnifying-glass black"></i>
-                           </Link>
+                           </a>
                            <div className="header__hamburger d-xl-none d-block my-auto">
                               <div className="sidebar__toggle bars-white" onClick={() => setOffCanvas(true)} style={{ cursor: "pointer" }}>
                                  <img src="/assets/img/icon/bars.png" alt="icon" />

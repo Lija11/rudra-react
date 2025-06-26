@@ -12,7 +12,7 @@ const BreadCrumb = ({ title }: DataType) => {
             <div className="boxes">
                <ul className="breadcrumb-cont d-flex flex-wrap align-items-center gap-md-3 gap-2">
                   <li className="theme-clr4 fw-500">
-                     <Link to="0" className="fw-600">Home</Link>
+                     <Link to="/" className="fw-600">Home</Link>
                   </li>
                   <li>
                      <i className="fa-solid fa-arrow-right"></i>

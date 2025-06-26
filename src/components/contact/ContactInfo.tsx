@@ -26,7 +26,7 @@ const ContactInfo = () => {
                      </div>
                      <span className="theme-clr4 d-block mb-00">Phone Number</span>
                      <h5>
-                        <Link to="0" className="fw-bold theme-clr4">+880-123-4567</Link>
+                        <Link to="tel:+11002345909" className="fw-bold theme-clr4">+880-123-4567</Link>
                      </h5>
                   </div>
                </div>
@@ -41,7 +41,7 @@ const ContactInfo = () => {
                      </div>
                      <span className="theme-clr4 d-block mb-00">Email address</span>
                      <h5>
-                        <Link to="#" className="fw-bold theme-clr4">demo@mail.com</Link>
+                        <Link to="mailto:demo@example.com" className="fw-bold theme-clr4">demo@mail.com</Link>
                      </h5>
                   </div>
                </div>
@@ -56,7 +56,7 @@ const ContactInfo = () => {
                      </div>
                      <span className="theme-clr4 d-block mb-00">Working hours</span>
                      <h5>
-                        <Link to="#" className="fw-bold theme-clr4">09AM - 05PM</Link>
+                        <Link to="/contact" className="fw-bold theme-clr4">09AM - 05PM</Link>
                      </h5>
                   </div>
                </div>

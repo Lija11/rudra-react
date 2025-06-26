@@ -107,7 +107,7 @@ const WorkArea = () => {
                               </div>
                               <div>
                                  <h4 className="mb-2">
-                                    <Link to="#" className="theme-clr4 fw-600">{item.title}</Link>
+                                    <Link to="/case-details" className="theme-clr4 fw-600">{item.title}</Link>
                                  </h4>
                                  <p className="black-clr">{item.title}</p>
                               </div>

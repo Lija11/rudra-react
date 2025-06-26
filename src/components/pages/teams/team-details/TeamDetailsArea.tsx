@@ -98,11 +98,11 @@ const TeamDetailsArea = () => {
                         </li>
                      </ul>
                      <div className="d-flex align-items-center gap-md-3 gap-2 flex-wrap">
-                        <Link to="#" className="theme-btn style1 pe-20">
+                        <Link to="/team-details" className="theme-btn style1 pe-20">
                            <i className="fa-solid fa-arrow-right w-36 h-36 bg-white rounded-circle d-center fz-14 theme-clr4"></i>
                            Contact with James carter
                         </Link>
-                        <Link to="#" className="d-center w-48 h-48 rounded-circle border">
+                        <Link to="/team-details" className="d-center w-48 h-48 rounded-circle border">
                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path
                                  d="M13.8357 17.4936L8.72553 14.7062C8.09289 15.3342 7.22164 15.7222 6.25977 15.7222C4.32677 15.7222 2.75977 14.1552 2.75977 12.2222C2.75977 10.2892 4.32677 8.72217 6.25977 8.72217C7.22158 8.72217 8.09278 9.11013 8.72541 9.7381L13.8357 6.95072C13.786 6.71571 13.7598 6.472 13.7598 6.22217C13.7598 4.28917 15.3268 2.72217 17.2598 2.72217C19.1928 2.72217 20.7598 4.28917 20.7598 6.22217C20.7598 8.15517 19.1928 9.72217 17.2598 9.72217C16.2979 9.72217 15.4267 9.33418 14.7941 8.70616L9.68381 11.4935C9.73359 11.7286 9.75977 11.9723 9.75977 12.2222C9.75977 12.472 9.7336 12.7157 9.68385 12.9507L14.7941 15.7382C15.4268 15.1102 16.298 14.7222 17.2598 14.7222C19.1928 14.7222 20.7598 16.2892 20.7598 18.2222C20.7598 20.1552 19.1928 21.7222 17.2598 21.7222C15.3268 21.7222 13.7598 20.1552 13.7598 18.2222C13.7598 17.9724 13.786 17.7286 13.8357 17.4936Z"

@@ -101,7 +101,7 @@ const ServiceArea = () => {
                               </h5>
                               <span className="fz-14 d-block theme-clr4 fw-500 mb-1">{item.desc}</span>
                            </div>
-                           <Link to="#"
+                           <Link to="/services-details"
                               className="theme-clr4 border hover-theme1 min-w-48 w-48 h-48 white-bg rounded-circle d-center d-xl-block d-none fs-five">
                               <i className="fa-solid fa-arrow-right"></i>
                            </Link>

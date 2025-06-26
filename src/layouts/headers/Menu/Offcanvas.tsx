@@ -44,7 +44,7 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                                  <i className="fal fa-map-marker-alt"></i>
                               </div>
                               <div className="offcanvas__contact-text">
-                                 <Link target="_blank" to="#">3517 W. Gray St. Utica, Pennsylvania</Link>
+                                 <Link target="_blank" to="/">3517 W. Gray St. Utica, Pennsylvania</Link>
                               </div>
                            </li>
                            <li className="d-flex align-items-center">
@@ -61,7 +61,7 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                                  <i className="fal fa-clock"></i>
                               </div>
                               <div className="offcanvas__contact-text">
-                                 <Link target="_blank" to="#">Sun-friday, 02am -09pm</Link>
+                                 <Link target="_blank" to="/">Sun-friday, 02am -09pm</Link>
                               </div>
                            </li>
                            <li className="d-flex align-items-center">
@@ -84,10 +84,18 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                            </Link>
                         </div>
                         <div className="social-icon d-flex align-items-center">
-                           <Link to="#"><i className="fab fa-facebook-f"></i></Link>
-                           <Link to="#"><i className="fab fa-twitter"></i></Link>
-                           <Link to="#"><i className="fa-brands fa-instagram"></i></Link>
-                           <Link to="#"><i className="fa-brands fa-pinterest-p"></i></Link>
+                           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                              <i className="fab fa-facebook-f"></i>
+                           </a>
+                           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                              <i className="fab fa-twitter"></i>
+                           </a>
+                           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                              <i className="fa-brands fa-instagram"></i>
+                           </a>
+                           <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
+                              <i className="fa-brands fa-pinterest-p"></i>
+                           </a>
                         </div>
                      </div>
                   </div>

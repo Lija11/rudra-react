@@ -42,7 +42,7 @@ const CaseStudiesArea = () => {
                                  </Link>
                               </h5>
                            </div>
-                           <Link to="#"
+                           <Link to="/case-details"
                               className="theme-clr4 border hover-theme1 min-w-48 w-48 h-48 white-bg rounded-circle d-center d-xl-block d-none fs-five">
                               <i className="fa-solid fa-arrow-right"></i>
                            </Link>

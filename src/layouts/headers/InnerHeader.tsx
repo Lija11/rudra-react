@@ -33,10 +33,10 @@ const InnerHeader = () => {
                            </div>
                         </div>
                         <div className="d-flex align-items-center gap-3">
-                           <Link to="#"
+                           <a onClick={() => setIsSearch(true)} style={{ cursor: "pointer" }}
                               className="search-trigger d-xl-none d-flex search-icon theme-clr4 hover-svg w-48 h-48 white-bg rounded-circle align-items-center justify-content-center d-xl-none d-block">
                               <i className="fa-solid fa-magnifying-glass black"></i>
-                           </Link>
+                           </a>
                            <div className="header__hamburger d-xl-none d-block my-auto">
                               <div className="sidebar__toggle" onClick={() => setOffCanvas(true)} style={{ cursor: "pointer" }}>
                                  <img src="/assets/img/icon/bars.png" alt="icon" />
@@ -57,7 +57,7 @@ const InnerHeader = () => {
                         </a>
                         <div className="d-flex align-items-center gap-3">
                            <i className="fa-solid fa-phone w-48 h-48 rounded-circle theme-bg4 d-center theme-clr"></i>
-                           <Link to="#" className="fw-normal d-xxl-block d-none">
+                           <Link to="tel:+11002345909" className="fw-normal d-xxl-block d-none">
                               24/7 Support <br />
                               <span className="fw-600 text-nowrap theme-clr4">(++597)678 09876</span>
                            </Link>

@@ -95,10 +95,10 @@ const WhatdoStart = () => {
                               </h5>
                               <span className="fz-14 d-block theme-clr4 fw-500 mb-1">{item.desc}</span>
                            </div>
-                           <a href="services-details.html"
+                           <Link to="/services-details"
                               className="theme-clr4 icon theme-bg  w-54 h-54 white-bg rounded-circle d-center d-xl-block d-none fs-five">
                               <img src={item.icon} alt="img" />
-                           </a>
+                           </Link>
                         </div>
                         <div className="thumb w-100 overflow-hidden position-relative">
                            <img src={item.thumb} alt="img" className="w-100 rounded-bottom-3" />

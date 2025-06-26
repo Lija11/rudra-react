@@ -68,7 +68,7 @@ const WorkArea = () => {
                         </div>
                         <h3 className="black-clr italic opacity-50 mb-2">01.</h3>
                         <h5 className="mb-2 wow fadeInUp" data-wow-delay=".3s">
-                           <Link to="#" className="black-clr fw-600">
+                           <Link to="/contact" className="black-clr fw-600">
                               {item.title}
                            </Link>
                         </h5>
